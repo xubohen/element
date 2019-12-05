@@ -164,13 +164,13 @@ export default {
 
   methods: {
     handleMouseEnter() {
-      this.hover = true;
-      this.pauseTimer();
+      // this.hover = true;
+      // this.pauseTimer();
     },
 
     handleMouseLeave() {
-      this.hover = false;
-      this.startTimer();
+      // this.hover = false;
+      // this.startTimer();
     },
 
     itemInStage(item, index) {
